@@ -1,0 +1,50 @@
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 40px;
+}
+
+nav a {
+    color: #6D6E71;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+li a {
+    color: #6D6E71;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+nav button {
+    width: 200px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid #00732F;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 720px) {
+    .find {
+        display: none;
+    }
+    
+    .navbar-brand {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .navbar-logo {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,38 @@
+
+.footer{
+    background: #123557;
+    color: #ffffff;
+    margin: 5rem 0rem;
+    height: 300px;
+}
+.logo_2{
+    margin-top: 0.6rem;
+}
+.logo_2 p{
+    color: #ffffff;
+}
+ul{
+    margin-top: 3rem;
+}
+ul li b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 700;
+    font-size: 1rem;
+}
+ul li{
+    list-style: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+ul li a{
+    margin-left: 1rem;
+    
+}
+.footer hr{
+    color: wheat;
+    margin-top: 1rem;
+    height: 1rem;
+    margin: 3rem;
+}
